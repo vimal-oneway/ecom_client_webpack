@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode production --hot"
+    "start": "npm i && webpack-dev-server --mode development --hot"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +21,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.41.1",
     "react-router-dom": "^6.6.1",
-
     "webpack-dev-server": "^4.11.1"
-
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
